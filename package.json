@@ -5,10 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "deploy": "ng deploy",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "deploy": "ng build --base-href='/' && ngh"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
